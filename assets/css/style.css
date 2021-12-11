@@ -1,0 +1,33 @@
+/* Universal Styles */
+
+font-face {
+  font-family: "Raleway-Thin";
+  src: url("../fonts/raleway/Raleway-Thin.ttf") format("truetype");
+}
+
+html,
+body {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
+  margin: 0;
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.container h2 {
+  font-size: 2rem;
+  margin: 1rem 0 1rem;
+  color: rgb(65, 201, 245);
+  font-family: "Raleway-Thin", Arial, Helvetica, sans-serif;
+}
+
+.container h3 {
+  font-size: 2rem;
+  margin: 1rem 0 1rem;
+  color: rgb(245, 65, 218);
+}

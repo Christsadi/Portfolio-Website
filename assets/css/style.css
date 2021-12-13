@@ -9,7 +9,9 @@ html body {
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
   color: grey;
+  text-align: center;
   margin: 0;
+  padding: 0;
 }
 
 .container {
@@ -22,7 +24,7 @@ html body {
   font-size: 2rem;
   margin: 1rem 0 1rem;
   color: rgb(65, 201, 245);
-  font-family: "Raleway-Thin", Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .container h3 {
@@ -33,15 +35,36 @@ html body {
 
 /* Header section */
 
-header {
-  padding: 1em;
+.header {
+  top: 0;
+  width: 100%;
+  border-bottom: 1px grey solid;
+  position: fixed;
+  background-color: white;
+  opacity: 0.8;
+  margin: 0 auto;
+  z-index: 10;
 }
 
-header img {
-  height: 50px;
+.header img {
+  height: 3.5em;
   width: auto;
+  float: left;
+  padding: 0.5em 0;
 }
 
-header nav {
-  text-align: right;
+.header nav {
+  float: right;
+  line-height: 4em;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(65, 201, 245);
+  z-index: 11;
 }

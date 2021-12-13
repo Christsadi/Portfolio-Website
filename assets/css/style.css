@@ -22,14 +22,14 @@ html body {
 
 .container h2 {
   font-size: 2rem;
-  margin: 1rem 0 1rem;
+  margin: 1rem 0 2rem;
   color: rgb(65, 201, 245);
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .container h3 {
-  font-size: 2rem;
-  margin: 1rem 0 1rem;
+  font-size: 1.5rem;
+  margin: 1rem 0 2rem;
   color: rgb(245, 65, 218);
 }
 
@@ -86,9 +86,9 @@ nav a {
 }
 
 #home h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin: 1rem 0 1rem;
-  color: rgb(65, 201, 245);
+  color: rgb(245, 65, 218);
   font-family: Arial, Helvetica, sans-serif;
   border-bottom: 1px grey solid;
   padding-bottom: 1em;
@@ -100,6 +100,31 @@ nav a {
 }
 
 #home .text {
-  width: 35%;
+  width: 45%;
   padding: 8em 3em 8em 0;
+}
+
+/* Portfolio section */
+
+#portfolio {
+  padding: 2%;
+}
+
+.work-container {
+  width: 30%;
+  text-align: center;
+}
+
+.work-container img {
+  width: 100%;
+  padding-bottom: 1em;
+}
+
+.feature {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feature p {
+  font-size: 1.2em;
 }

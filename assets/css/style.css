@@ -33,6 +33,10 @@ html body {
   color: rgb(245, 65, 218);
 }
 
+main {
+  margin-top: 5rem;
+}
+
 /* Header section */
 
 .header {
@@ -41,16 +45,18 @@ html body {
   border-bottom: 1px grey solid;
   position: fixed;
   background-color: white;
-  opacity: 0.8;
+  opacity: 0.95;
   margin: 0 auto;
   z-index: 10;
 }
 
-.header img {
-  height: 3.5em;
-  width: auto;
+.logo {
   float: left;
-  padding: 0.5em 0;
+}
+
+.logo a {
+  font-size: 2em;
+  line-height: 2em;
 }
 
 .header nav {
@@ -67,4 +73,33 @@ nav a {
   text-decoration: none;
   color: rgb(65, 201, 245);
   z-index: 11;
+}
+
+/* banner section */
+
+#home {
+  padding: 2%;
+}
+
+#home img {
+  height: 25em;
+}
+
+#home h1 {
+  font-size: 2rem;
+  margin: 1rem 0 1rem;
+  color: rgb(65, 201, 245);
+  font-family: Arial, Helvetica, sans-serif;
+  border-bottom: 1px grey solid;
+  padding-bottom: 1em;
+}
+
+#home .container {
+  display: flex;
+  justify-content: center;
+}
+
+#home .text {
+  width: 35%;
+  padding: 8em 3em 8em 0;
 }

@@ -67,12 +67,17 @@ main {
 nav li {
   display: inline-block;
   margin: 0 10px;
+  font-size: 1.2em;
 }
 
 nav a {
   text-decoration: none;
   color: rgb(65, 201, 245);
   z-index: 11;
+}
+
+a:hover {
+  color: rgb(245, 65, 218);
 }
 
 /* banner section */

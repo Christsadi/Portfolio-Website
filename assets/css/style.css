@@ -181,3 +181,19 @@ nav a {
   padding: 0 1rem;
   text-align: left;
 }
+
+/* footer section */
+
+footer img {
+  width: 5%;
+  padding: 2em;
+}
+
+.container-footer {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+  border-top: 1px grey solid;
+  margin: 0 auto;
+}

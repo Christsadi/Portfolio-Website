@@ -128,3 +128,26 @@ nav a {
 .feature p {
   font-size: 1.2em;
 }
+
+/* javascript section */
+
+/* skill section */
+
+#skill {
+  padding: 5%;
+}
+
+#skill .skill-container {
+  width: 10%;
+  text-align: center;
+}
+
+.skill-container img {
+  width: 100%;
+  padding-bottom: 1em;
+}
+
+.skill-set {
+  display: flex;
+  justify-content: space-between;
+}

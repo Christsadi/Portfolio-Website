@@ -151,3 +151,33 @@ nav a {
   display: flex;
   justify-content: space-between;
 }
+
+/* about section */
+
+.about-me {
+  height: 40rem;
+  background-image: url("../img/About.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#about h2 {
+  color: white;
+  margin-top: 15%;
+}
+
+#about p {
+  color: white;
+  line-height: 2em;
+}
+
+#about .container {
+  max-width: 40%;
+  margin: 0 3em;
+  padding: 0 1rem;
+  text-align: left;
+}

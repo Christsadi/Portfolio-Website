@@ -45,7 +45,7 @@ main {
   border-bottom: 1px grey solid;
   position: fixed;
   background-color: white;
-  opacity: 0.95;
+  opacity: 0.8;
   margin: 0 auto;
   z-index: 10;
 }

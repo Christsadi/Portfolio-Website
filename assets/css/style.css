@@ -291,4 +291,50 @@ footer img {
   }
 
   /* Portfolio section */
+
+  .feature {
+    display: block;
+    justify-content: center;
+  }
+
+  .work-container {
+    width: 100%;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding: 1.5rem 0;
+  }
+
+  /* skills section */
+
+  .skill-set {
+    display: block;
+    justify-content: center;
+  }
+
+  #skill .skill-container {
+    width: 50%;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding: 1.5rem 0;
+    margin: 0 auto;
+  }
+
+  /* skills section */
+
+  .about-me {
+    background-color: rgb(65, 201, 245);
+    padding-top: 1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    background-image: none;
+  }
+
+  #about .container {
+    max-width: 100%;
+    margin: 0 3em;
+    padding: 0 1rem;
+    text-align: left;
+  }
 }

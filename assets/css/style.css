@@ -103,36 +103,6 @@ main {
   border-radius: 10px;
 }
 
-@media only screen and (max-width: 720px) {
-  .toggle-button {
-    display: flex;
-  }
-
-  .navbar-links {
-    display: none;
-    width: 100%;
-  }
-
-  #header .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-    line-height: 2em;
-  }
-
-  .navbar-links ul {
-    flex-direction: row;
-    width: 100%;
-  }
-
-  .navbar-links.active {
-    display: flex;
-  }
-
-  .navbar-links li a {
-    font-size: 1em;
-  }
-}
-
 /* banner section */
 
 #home {
@@ -155,6 +125,7 @@ main {
 #home .container {
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 
 #home .text {
@@ -208,6 +179,7 @@ main {
 .skill-set {
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 
 /* about section */
@@ -254,4 +226,69 @@ footer img {
   padding: 2em;
   border-top: 1px grey solid;
   margin: 0 auto;
+}
+
+/* mobile section */
+
+@media only screen and (max-width: 720px) {
+  /* Universal Styles */
+
+  main {
+    margin-top: 4rem;
+  }
+
+  /* header section */
+
+  .toggle-button {
+    display: flex;
+  }
+
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+
+  #header .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 2em;
+  }
+
+  .navbar-links ul {
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
+
+  .navbar-links li a {
+    font-size: 1em;
+  }
+
+  /* Banner section */
+
+  #home .container {
+    display: block;
+  }
+
+  #home .text {
+    width: 100%;
+    padding: 1em 0;
+    display: block;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #home h1 {
+    font-size: 2rem;
+  }
+
+  #home img {
+    padding-top: 1.5em;
+    height: 20em;
+  }
+
+  /* Portfolio section */
 }

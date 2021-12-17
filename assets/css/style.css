@@ -155,6 +155,20 @@ main {
 
 .feature p {
   font-size: 1.2em;
+  padding-bottom: 1em;
+}
+
+.summary {
+  border-top: 1px grey solid;
+  border-bottom: 1px grey solid;
+}
+
+.summary summary {
+  padding: 1rem;
+}
+
+.summary p {
+  text-align: left;
 }
 
 /* javascript section */
@@ -350,10 +364,6 @@ footer img {
     padding: 1.5rem 0;
     margin: 0 auto;
   }
-}
-
-@media only screen and (max-width: 320px) {
-  /*footer section*/
 
   footer img {
     width: 20%;

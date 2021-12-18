@@ -262,7 +262,7 @@ footer img {
   padding: 2%;
 }
 
-#contact img {
+.banner img {
   height: 25em;
 }
 
@@ -272,6 +272,7 @@ footer img {
   color: rgb(245, 65, 218);
   font-family: Arial, Helvetica, sans-serif;
   padding-bottom: 1em;
+  border-bottom: 1px grey solid;
 }
 
 #contact .container {
@@ -283,8 +284,17 @@ footer img {
 #contact .text {
   width: 45%;
   padding: 8em 3em 8em 0;
-  border-top: 1px grey solid;
+}
+
+#contact p {
+  padding-bottom: 1em;
   border-bottom: 1px grey solid;
+}
+
+.text img {
+  width: 10%;
+  height: auto;
+  padding: 2em;
 }
 
 /* mobile section */

@@ -1,12 +1,17 @@
-const timer = document.getElementById('timer');
-const start = "03-11-2020";
-const start_date = new Date(start);
-const intNumberFormatter = new Intl.NumberFormat("en-us");
+const timerSeconds = document.getElementById("timer-seconds");
+const timerDays = document.getElementById("timer-days");
+const start = "11-03-2020";
+const startDate = new Date(start);
+const intlNumberFormatter = new Intl.NumberFormat("en-US");
 
 setInterval(() => {
-    const currentDate = new Date();
-    const difference = Math.floor (
-        (now.getTime() - start_date.getTime()) / 1000);
+  const now = new Date();
+  const day = Math.floor(
+    (now.getTime() - startDate.getTime()) / (1000*60*60*24)); // for days
+  const seconds = Math.floor(
+    (now.getTime() - startDate.getTime()) / (1000)); // for seconds
 
-    timer.innerText = intNumberFormatter.format(difference);
+  timerSeconds.innerText = intlNumberFormatter.format(seconds);
+  timerDays.innerText = intlNumberFormatter.format(day);
+
 }, 1000);

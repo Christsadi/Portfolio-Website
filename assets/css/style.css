@@ -240,11 +240,17 @@ a :hover {
 #about img {
   display: none;
 }
+
 /* footer section */
 
 footer img {
   width: 5%;
   padding: 2em;
+}
+
+footer .container {
+  max-width: 90%;
+  margin: 0 auto;
 }
 
 .container-footer {
@@ -262,8 +268,8 @@ footer img {
   padding: 2%;
 }
 
-.banner img {
-  height: 25em;
+.banner {
+  height: 25rem;
 }
 
 #contact h1 {
@@ -293,8 +299,7 @@ footer img {
 
 .text img {
   width: 10%;
-  height: auto;
-  padding: 2em;
+  padding: 1.5em;
 }
 
 /* mobile section */
@@ -454,8 +459,13 @@ footer img {
     font-size: 2rem;
   }
 
-  #contact img {
+  .banner img {
     padding-top: 1.5em;
     height: 20em;
+  }
+
+  .text img {
+    width: 20%;
+    padding: 2em;
   }
 }

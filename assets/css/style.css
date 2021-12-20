@@ -5,13 +5,20 @@ font-face {
   src: url("../fonts/raleway/Raleway-Thin.ttf") format("truetype");
 }
 
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
 html body {
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
   color: grey;
   text-align: center;
-  margin: 0px;
-  padding: 0px;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .container {
@@ -91,7 +98,7 @@ a :hover {
 .toggle-button {
   position: absolute;
   top: 1.2rem;
-  right: 2rem;
+  right: 1.5rem;
   display: none;
   flex-direction: column;
   justify-content: space-between;

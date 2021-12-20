@@ -10,8 +10,8 @@ html body {
   font-family: Arial, Helvetica, sans-serif;
   color: grey;
   text-align: center;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
 .container {
@@ -91,7 +91,7 @@ a :hover {
 .toggle-button {
   position: absolute;
   top: 1.2rem;
-  right: 1rem;
+  right: 2rem;
   display: none;
   flex-direction: column;
   justify-content: space-between;
@@ -183,8 +183,6 @@ a :hover {
   color: rgb(245, 65, 218);
 }
 
-/* javascript section */
-
 /* skill section */
 
 #skill {
@@ -243,12 +241,12 @@ a :hover {
 
 /* footer section */
 
-footer img {
+#footer img {
   width: 5%;
   padding: 2em;
 }
 
-footer .container {
+#footer .container {
   max-width: 90%;
   margin: 0 auto;
 }
@@ -304,7 +302,7 @@ footer .container {
 
 /* mobile section */
 
-@media only screen and (max-width: 820px) {
+@media screen and (max-width: 820px) {
   /* about section */
 
   .about-me {
@@ -317,7 +315,7 @@ footer .container {
   }
 
   #about .container {
-    max-width: 100%;
+    width: 100%;
     margin: 0 3em;
     padding: 0 1rem;
     text-align: left;
@@ -332,7 +330,7 @@ footer .container {
   }
 }
 
-@media only screen and (max-width: 720px) {
+@media screen and (max-width: 720px) {
   /* Universal Styles */
 
   main {

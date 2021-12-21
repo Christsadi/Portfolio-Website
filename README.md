@@ -46,7 +46,7 @@ This project is open source. Personal logos and images should not be used withou
 To navigate to the website use the following link:
 <https://christsadi.github.io/Portfolio-Website/>
 
-You will find the files on this repository.
+You will find all the files and images which make up this website on this repository.
 
 ## Project Status
 

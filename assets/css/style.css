@@ -488,7 +488,7 @@ a :hover {
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 400px) {
   /*nav bar*/
   .navbar-links ul {
     flex-direction: column-reverse;

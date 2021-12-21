@@ -1,4 +1,4 @@
-# Codecademy Challenge Project: Responsive Club Website
+# Codecademy Portfolio Website
 
 In this project, I built a personal portfolio website to share my personal work and the work I have built in the Full Stack Path. Portfolio from Codecademy.
 
@@ -39,7 +39,7 @@ This project is open source. Personal logos and images should not be used withou
 
 ## Screenshots
 
-![Example screenshot](./assets/img/home-page-screenshot.png)(./assets/img/contact-page-screenshot.png)
+![Example screenshot homepage](./assets/img/home-page-screenshot.png)![Example screenshot contact page](./assets/img/contact-page-screenshot.png)
 
 ## Setup
 

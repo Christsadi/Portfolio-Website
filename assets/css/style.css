@@ -1,8 +1,13 @@
 /* Universal Styles */
 
-font-face {
-  font-family: "Raleway-Thin";
-  src: url("../fonts/raleway/Raleway-Thin.ttf") format("truetype");
+@font-face {
+  font-family: "Raleway-Light";
+  src: url("../fonts/raleway/Raleway-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Raleway-Medium";
+  src: url("../fonts/raleway/Raleway-Medium.ttf") format("truetype");
 }
 
 html,
@@ -19,6 +24,9 @@ html body {
   text-align: center;
   margin: 0 auto;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
 }
 
 .container {
@@ -30,7 +38,7 @@ html body {
   font-size: 2rem;
   margin: 1rem 0 2rem;
   color: rgb(65, 201, 245);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Raleway-Medium", Arial, Helvetica, sans-serif;
 }
 
 .container h3 {
@@ -65,6 +73,7 @@ a :hover {
 }
 
 .logo a {
+  font-family: "Raleway-Light";
   font-size: 2em;
   line-height: 2em;
 }
@@ -89,6 +98,7 @@ a :hover {
   text-decoration: none;
   color: rgb(65, 201, 245);
   z-index: 11;
+  font-family: "Raleway-Medium", Arial, Helvetica, sans-serif;
 }
 
 .navbar-links ul :hover {
@@ -127,7 +137,7 @@ a :hover {
   font-size: 2.5rem;
   margin: 1rem 0 1rem;
   color: rgb(245, 65, 218);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Raleway-Medium", Arial, Helvetica, sans-serif;
   border-bottom: 1px grey solid;
   padding-bottom: 1em;
 }
@@ -170,6 +180,7 @@ a :hover {
 }
 
 .feature a {
+  font-family: "Raleway-Medium", Arial, Helvetica, sans-serif;
   color: rgb(65, 201, 245);
 }
 
@@ -228,6 +239,7 @@ a :hover {
 #about h2 {
   color: white;
   margin-top: 15%;
+  font-family: "Raleway-Medium", Arial, Helvetica, sans-serif;
 }
 
 #about p {
@@ -248,12 +260,16 @@ a :hover {
 
 /* footer section */
 
+#footer {
+  margin-top: auto;
+}
+
 #footer img {
   width: 10%;
   padding: 2em;
 }
 
-#footer .container {
+#footer.container {
   max-width: 90%;
   margin: 0 auto;
 }
